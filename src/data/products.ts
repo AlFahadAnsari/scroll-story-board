@@ -1,8 +1,8 @@
-import indigo from "@/assets/products/indigo-haze.webp.asset.json";
-import marshmallow from "@/assets/products/marshmallow-smoke.webp.asset.json";
-import aqua from "@/assets/products/aqua-bergamot.webp.asset.json";
-import vanilla from "@/assets/products/black-vanilla.webp.asset.json";
-import ten from "@/assets/products/number-10.webp.asset.json";
+import indigo from "@/assets/products/indigo-haze.webp";
+import marshmallow from "@/assets/products/marshmallow-smoke.webp";
+import aqua from "@/assets/products/aqua-bergamot.webp";
+import vanilla from "@/assets/products/black-vanilla.webp";
+import ten from "@/assets/products/number-10.webp";
 
 export type Format = "body-spray" | "body-wash" | "3-in-1";
 
@@ -39,7 +39,7 @@ export const products: Product[] = [
     format: "body-spray",
     formatLabel: "Premium Deodorant Body Spray",
     line: "Fine Fragrance Collection",
-    image: indigo.url,
+    image: indigo,
     accent: "#e0782f",
     packClaims: ["72H Fresh", "0% Aluminium Salts", "Infused with Essential Oils"],
     fragranceNotes: [],
@@ -54,7 +54,7 @@ export const products: Product[] = [
     format: "body-spray",
     formatLabel: "Premium Deodorant Body Spray",
     line: "Fine Fragrance Collection",
-    image: marshmallow.url,
+    image: marshmallow,
     accent: "#e8dcc4",
     packClaims: ["72H Fresh", "0% Aluminium Salts", "Infused with Essential Oils"],
     fragranceNotes: [],
@@ -69,7 +69,7 @@ export const products: Product[] = [
     format: "body-wash",
     formatLabel: "Fine Fragrance Body Wash",
     line: "Fine Fragrance Collection",
-    image: aqua.url,
+    image: aqua,
     accent: "#7fd3d6",
     packClaims: ["Smell Finer Than The Finest Fragrances", "Essential Oils", "12H Refreshing Scent"],
     fragranceNotes: [],
@@ -84,7 +84,7 @@ export const products: Product[] = [
     format: "body-wash",
     formatLabel: "Fine Fragrance Body Wash",
     line: "Fine Fragrance Collection",
-    image: vanilla.url,
+    image: vanilla,
     accent: "#e2a93b",
     packClaims: ["Smell Finer Than The Finest Fragrances", "Essential Oils", "12H Refreshing Scent"],
     fragranceNotes: [],
@@ -99,7 +99,7 @@ export const products: Product[] = [
     format: "3-in-1",
     formatLabel: "3-in-1 Body, Face & Hair Wash",
     line: "3 in 1",
-    image: ten.url,
+    image: ten,
     accent: "#e04fb0",
     packClaims: ["All Day Fresh", "Feel Clean"],
     fragranceNotes: [],
